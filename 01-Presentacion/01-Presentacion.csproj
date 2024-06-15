@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_01_Presentacion</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\02-Aplicacion\02-Aplicacion.csproj" />
+    <ProjectReference Include="..\03-Dominio\03-Dominio.csproj" />
+    <ProjectReference Include="..\04-PersistenciaDatos\04-PersistenciaDatos.csproj" />
+  </ItemGroup>
+
+</Project>
