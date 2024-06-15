@@ -193,9 +193,7 @@ La entidad `Producto` tiene un atributo que representa un Estado (Activo, Inacti
 
 ---
 
-## Instrucciones para Desplegar la
-
- Aplicación en un Entorno de Prueba
+## Instrucciones para Desplegar la Aplicación en un Entorno de Prueba
 
 ### Tabla de Contenidos
 1. Requisitos Previos
