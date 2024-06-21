@@ -1,46 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace _03_Dominio.ValueObjects
 {
     public class EstadoProducto
     {
-        private readonly int estado;
+        private readonly string estado;
 
-        private static readonly Dictionary<int, string> estadoMapping = new Dictionary<int, string>();
-        private static readonly Dictionary<string, int> estadoMappingReverse = new Dictionary<string, int>();
-
-        static EstadoProducto()
+        private static readonly Dictionary<string, string> estadoMapping = new Dictionary<string, string>
         {
-            estadoMapping.Add(0, "Activo");
-            estadoMapping.Add(1, "Inactivo");
-            estadoMapping.Add(2, "Pendiente");
-
-            foreach (var kvp in estadoMapping)
-            {
-                estadoMappingReverse.Add(kvp.Value, kvp.Key);
-            }
-        }
+            { "Activo", "Activo" },
+            { "Inactivo", "Inactivo" },
+            { "Pendiente", "Pendiente" }
+        };
 
         public EstadoProducto(string estado)
         {
-            if (!estadoMappingReverse.ContainsKey(estado))
-            {
-                throw new ArgumentException("Estado inválido. Debe ser 'Activo', 'Inactivo', o 'Pendiente'.");
-            }
-            this.estado = estadoMappingReverse[estado];
-        }
-
-        public EstadoProducto(int estado)
-        {
             if (!estadoMapping.ContainsKey(estado))
             {
-                throw new ArgumentException("Estado inválido. Debe ser 0 (Activo), 1 (Inactivo), o 2 (Pendiente).");
+                throw new ArgumentException("Estado inválido. Debe ser 'Activo', 'Inactivo', o 'Pendiente'.");
             }
             this.estado = estado;
         }

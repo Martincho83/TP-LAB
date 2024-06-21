@@ -47,3 +47,4 @@ C:\Users\martin\Desktop\prueba-tpi\04-PersistenciaDatos\obj\Debug\net8.0\refint\
 C:\Users\martin\Desktop\prueba-tpi\04-PersistenciaDatos\obj\Debug\net8.0\04-PersistenciaDatos.pdb
 C:\Users\martin\Desktop\prueba-tpi\04-PersistenciaDatos\obj\Debug\net8.0\04-PersistenciaDatos.genruntimeconfig.cache
 C:\Users\martin\Desktop\prueba-tpi\04-PersistenciaDatos\obj\Debug\net8.0\ref\04-PersistenciaDatos.dll
+C:\Users\martin\Desktop\prueba-tpi\04-PersistenciaDatos\obj\Debug\net8.0\04-PersistenciaDatos.sourcelink.json

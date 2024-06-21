@@ -202,3 +202,4 @@ C:\Users\martin\Desktop\prueba-tpi\EstadoProductoTests\obj\Debug\net8.0\refint\E
 C:\Users\martin\Desktop\prueba-tpi\EstadoProductoTests\obj\Debug\net8.0\EstadoProductoTests.pdb
 C:\Users\martin\Desktop\prueba-tpi\EstadoProductoTests\obj\Debug\net8.0\EstadoProductoTests.genruntimeconfig.cache
 C:\Users\martin\Desktop\prueba-tpi\EstadoProductoTests\obj\Debug\net8.0\ref\EstadoProductoTests.dll
+C:\Users\martin\Desktop\prueba-tpi\EstadoProductoTests\obj\Debug\net8.0\EstadoProductoTests.sourcelink.json

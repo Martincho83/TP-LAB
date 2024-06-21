@@ -18,33 +18,10 @@ namespace EstadoProductoTests
         }
 
         [Fact]
-        public void Constructor_EnteroValido_AsignaEstadoCorrectamente()
-        {
-            // Arrange
-            var estado = 1;
-
-            // Act
-            var estadoProducto = new EstadoProducto(estado);
-
-            // Assert
-            Assert.Equal("Inactivo", estadoProducto.Valor());
-        }
-
-        [Fact]
         public void Constructor_CadenaInvalida_LanzaExcepcion()
         {
             // Arrange
             var estado = "Desconocido";
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => new EstadoProducto(estado));
-        }
-
-        [Fact]
-        public void Constructor_EnteroInvalido_LanzaExcepcion()
-        {
-            // Arrange
-            var estado = 99;
 
             // Act & Assert
             Assert.Throws<ArgumentException>(() => new EstadoProducto(estado));

@@ -286,3 +286,4 @@ C:\Users\martin\Desktop\prueba-tpi\ProductoTests\obj\Debug\net8.0\refint\Product
 C:\Users\martin\Desktop\prueba-tpi\ProductoTests\obj\Debug\net8.0\ProductoTests.pdb
 C:\Users\martin\Desktop\prueba-tpi\ProductoTests\obj\Debug\net8.0\ProductoTests.genruntimeconfig.cache
 C:\Users\martin\Desktop\prueba-tpi\ProductoTests\obj\Debug\net8.0\ref\ProductoTests.dll
+C:\Users\martin\Desktop\prueba-tpi\ProductoTests\obj\Debug\net8.0\ProductoTests.sourcelink.json

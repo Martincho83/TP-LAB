@@ -140,3 +140,4 @@ C:\Users\martin\Desktop\prueba-tpi\01-Presentacion\obj\Debug\net8.0\refint\01-Pr
 C:\Users\martin\Desktop\prueba-tpi\01-Presentacion\obj\Debug\net8.0\01-Presentacion.pdb
 C:\Users\martin\Desktop\prueba-tpi\01-Presentacion\obj\Debug\net8.0\01-Presentacion.genruntimeconfig.cache
 C:\Users\martin\Desktop\prueba-tpi\01-Presentacion\obj\Debug\net8.0\ref\01-Presentacion.dll
+C:\Users\martin\Desktop\prueba-tpi\01-Presentacion\obj\Debug\net8.0\01-Presentacion.sourcelink.json
