@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj": {}
+    "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj": {
+    "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj",
         "projectName": "02-Aplicacion",
-        "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj",
+        "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj",
         "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj": {
-                "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj"
+              "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj": {
+                "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj"
               },
-              "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj": {
-                "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj"
+              "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj": {
+                "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj": {
+    "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj",
         "projectName": "03-Dominio",
-        "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj",
+        "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj",
         "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\obj\\",
+        "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj": {
+    "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
         "projectName": "04-PersistenciaDatos",
-        "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
+        "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
         "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\obj\\",
+        "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj": {
-                "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj"
+              "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj": {
+                "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj"
               }
             }
           }

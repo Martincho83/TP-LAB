@@ -4,81 +4,80 @@ namespace _02_Aplicacion.DTO
 {
     public class ProductoDTO
     {
-        private int id;
-        private string nombre;
-        private string descripcion;
-        private decimal precio;
-        private int categoriaId;
-        private int cantidadStock;
+        private Identificador id;
+        private Nombre nombre;
+        private Descripcion descripcion;
+        private Precio precio;
+        private CategoriaId categoriaId;
+        private CantidadStock cantidadStock;
         private EstadoProducto estado;
-    
-        public ProductoDTO(int id, string nombre, string descripcion, decimal precio, int categoriaId, int cantidadStock,EstadoProducto estado)
+
+        public ProductoDTO(int id, string nombre, string descripcion, decimal precio, int categoriaId, int cantidadStock, EstadoProducto estado)
         {
-            this.id = id;
-            this.nombre = nombre;
-            this.descripcion = descripcion;
-            this.precio = precio;
-            this.categoriaId = categoriaId;
-            this.cantidadStock = cantidadStock;
+            this.id = new Identificador(id);
+            this.nombre = new Nombre(nombre);
+            this.descripcion = new Descripcion(descripcion);
+            this.precio = new Precio(precio);
+            this.categoriaId = new CategoriaId(categoriaId);
+            this.cantidadStock = new CantidadStock(cantidadStock);
             this.estado = estado;
         }
 
 
-        //Getters
+        // Getters
         public int GetId()
         {
-            return this.id;
+            return this.id.Valor();
         }
         public string GetNombre()
         {
-            return this.nombre;
+            return this.nombre.Valor();
         }
         public string GetDescripcion()
         {
-            return this.descripcion;
+            return this.descripcion.Valor();
         }
         public decimal GetPrecio()
         {
-            return this.precio;
+            return this.precio.Valor();
         }
         public int GetCategoriaId()
         {
-            return this.categoriaId;
+            return this.categoriaId.Valor();
         }
         public int GetCantidadStock()
         {
-            return this.cantidadStock;
+            return this.cantidadStock.Valor();
         }
         public EstadoProducto GetEstado()
         {
             return this.estado;
         }
 
-        //Setters
-
+        // Setters
         public void SetIdentificador(int id)
         {
-            this.id = id;
+            this.id = new Identificador(id);
         }
         public void SetNombre(string nombre)
         {
-            this.nombre = nombre;
+            this.nombre = new Nombre(nombre);
         }
         public void SetDescripcion(string descripcion)
         {
-            this.descripcion = descripcion;
+            this.descripcion = new Descripcion(descripcion);
         }
         public void SetPrecio(decimal precio)
         {
-            this.precio = precio;
+            this.precio = new Precio(precio);
         }
         public void SetCategoriaId(int categoriaId)
         {
-            this.categoriaId = categoriaId;
+            this.categoriaId = new CategoriaId(categoriaId);
         }
         public void SetCantidadStock(int cantidadStock)
         {
-            this.cantidadStock = cantidadStock;
+            this.cantidadStock = new CantidadStock(cantidadStock);
         }
         public void SetEstado(EstadoProducto estado)
         {

@@ -4,17 +4,17 @@ namespace _03_Dominio.Entidades
 {
     public class Producto
     {
-        Identificador id;
-        Nombre nombre;
-        Descripcion descripcion;
-        Precio precio;
-        CategoriaId categoriaId;
-        CantidadStock cantidadStock;
-        EstadoProducto estado;
+        private Identificador id;
+        private Nombre nombre;
+        private Descripcion descripcion;
+        private Precio precio;
+        private CategoriaId categoriaId;
+        private CantidadStock cantidadStock;
+        private EstadoProducto estado;
 
-        public Producto(int id, string nombre, string descripcion, decimal precio,int categoriaId, int cantidadStock, EstadoProducto estado)
+        public Producto(int id, string nombre, string descripcion, decimal precio, int categoriaId, int cantidadStock, EstadoProducto estado)
         {
-            this.id = new Identificador(id);     
+            this.id = new Identificador(id);
             this.nombre = new Nombre(nombre);
             this.descripcion = new Descripcion(descripcion);
             this.precio = new Precio(precio);

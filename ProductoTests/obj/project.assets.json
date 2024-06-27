@@ -7367,11 +7367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\ProductoTests\\ProductoTests.csproj",
+      "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\ProductoTests\\ProductoTests.csproj",
       "projectName": "ProductoTests",
-      "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\ProductoTests\\ProductoTests.csproj",
+      "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\ProductoTests\\ProductoTests.csproj",
       "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\ProductoTests\\obj\\",
+      "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\ProductoTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7388,11 +7388,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj"
+            "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj"
             },
-            "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj": {
-              "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj"
+            "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj": {
+              "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj"
             }
           }
         }

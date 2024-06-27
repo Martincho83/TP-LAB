@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rvcGD771/UzrqRfA+ltKZwwXEoHk7dtw4roYdQ6k2ePsQYFbtcqnL7H2EWJLaea7T8Li6zscQtzfLmAMS30ggQ==",
+  "dgSpecHash": "Jw3w3iXASlrP+M+StOCCo1lsx5iErSAm3we5JFP0EppnQ8u5YVrDY+ltKv0IhFdroibkCwas05deS7lBx4QNKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
+  "projectFilePath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martin\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\martin\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

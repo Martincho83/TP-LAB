@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLeF29Jgp5CO5d/t6jKSKYFPx7NYHe6cbXSrO3IzPUmblItBo66jv+2FWo5kPw5hVUzgtosHngaDrJSk1MVFJQ==",
+  "dgSpecHash": "At1/5WQ12CV0bz2pkiLYtX9CPyqhud29X85OtOJBa4j5214Gq4sdmamug8y1PkfSYY7s8JIL+uX0VUUhWpomcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\02-Aplicacion\\02-Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\02-Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martin\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\martin\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

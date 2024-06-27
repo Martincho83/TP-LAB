@@ -107,50 +107,163 @@ namespace _01_Presentacion
                 Console.WriteLine("        Crear Nuevo Producto       ");
                 Console.WriteLine("===================================");
 
-                int id;
-                while (true)
-                {
-                    Console.Write("Ingrese el ID del producto: ");
-                    id = int.Parse(Console.ReadLine());
+                int id = SolicitarIdentificador(crearProducto);
+                string nombre = SolicitarNombre();
+                string descripcion = SolicitarDescripcion();
+                decimal precio = SolicitarPrecio();
+                int categoriaId = SolicitarCategoriaId();
+                int cantidadStock = SolicitarCantidadStock();
+                EstadoProducto estado = SolicitarEstado();
 
-                    if (crearProducto.ExisteProductoConId(id))
-                    {
-                        MostrarMensajeError("El ID del producto ya está registrado. Por favor, ingrese otro ID.");
-                    }
-                    else
-                    {
-                        break;
-                    }
-                }
-
-                Console.Write("Ingrese el nombre del producto: ");
-                string nombre = Console.ReadLine();
-                Console.Write("Ingrese la descripción del producto: ");
-                string descripcion = Console.ReadLine();
-                Console.Write("Ingrese el precio del producto: ");
-                decimal precio = decimal.Parse(Console.ReadLine());
-                Console.Write("Ingrese el ID de la categoría: ");
-                int categoriaId = int.Parse(Console.ReadLine());
-                Console.Write("Ingrese la cantidad en stock: ");
-                int cantidadStock = int.Parse(Console.ReadLine());
-                Console.Write("Ingrese el estado del producto (Activo, Inactivo, Pendiente): ");
-                string estado = Console.ReadLine();
-
-                ProductoDTO productoDTO = new ProductoDTO(id, nombre, descripcion, precio, categoriaId, cantidadStock, new EstadoProducto(estado));
+                ProductoDTO productoDTO = new ProductoDTO(id, nombre, descripcion, precio, categoriaId, cantidadStock, estado);
                 crearProducto.Ejecutar(productoDTO);
                 MostrarMensajeExito("Producto creado exitosamente.");
-            }
-            catch (FormatException)
-            {
-                MostrarMensajeError("Formato de entrada no válido. Por favor, intente nuevamente.");
             }
             catch (InvalidOperationException ex)
             {
                 MostrarMensajeError(ex.Message);
             }
+            catch (FormatException)
+            {
+                MostrarMensajeError("Formato de entrada no válido. Por favor, intente nuevamente.");
+            }
             catch (Exception ex)
             {
                 MostrarMensajeError($"Error al crear el producto: {ex.Message}");
+            }
+        }
+
+        static int SolicitarIdentificador(CrearProducto crearProducto)
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese el ID del producto: ");
+                    int id = int.Parse(Console.ReadLine());
+
+
+                    //Verificar si el ID ya está registrado
+                    if (crearProducto.ExisteProductoConId(id))
+                    {
+                        throw new InvalidOperationException("El ID del producto ya está registrado. Por favor, ingrese otro ID.");
+                    }
+
+                    //Validacion del Value Object Identificador
+                    new Identificador(id); // Validación
+                    return id;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  string SolicitarNombre()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese el nombre del producto: ");
+                    string nombre = Console.ReadLine();
+                    new Nombre(nombre); // Validación
+                    return nombre;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  string SolicitarDescripcion()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese la descripción del producto: ");
+                    string descripcion = Console.ReadLine();
+                    new Descripcion(descripcion); // Validación
+                    return descripcion;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  decimal SolicitarPrecio()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese el precio del producto: ");
+                    decimal precio = decimal.Parse(Console.ReadLine());
+                    new Precio(precio); // Validación
+                    return precio;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  int SolicitarCategoriaId()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese el ID de la categoría: ");
+                    int categoriaId = int.Parse(Console.ReadLine());
+                    new CategoriaId(categoriaId); // Validación
+                    return categoriaId;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  int SolicitarCantidadStock()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese la cantidad en stock: ");
+                    int cantidadStock = int.Parse(Console.ReadLine());
+                    new CantidadStock(cantidadStock); // Validación
+                    return cantidadStock;
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
+            }
+        }
+
+        static  EstadoProducto SolicitarEstado()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Ingrese el estado del producto (Activo, Inactivo, Pendiente): ");
+                    string estado = Console.ReadLine();
+                    return new EstadoProducto(estado); // Validación
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensajeError(ex.Message);
+                }
             }
         }
 
@@ -221,6 +334,13 @@ namespace _01_Presentacion
                 Console.Write("Ingrese el ID del Producto a actualizar: ");
                 int id = int.Parse(Console.ReadLine());
 
+                // Verificar si el producto existe antes de actualizar
+                if (!actualizarProducto.ExisteProductoConId(id))
+                {
+                    throw new InvalidOperationException($"No se encontró ningún producto con el ID {id}. No se puede actualizar.");
+                }
+
+                // Solicitar los nuevos datos del producto
                 Console.Write("Ingrese Nuevo Nombre del Producto: ");
                 string nombre = Console.ReadLine();
                 Console.Write("Ingrese Nueva Descripcion del Producto: ");
@@ -234,10 +354,22 @@ namespace _01_Presentacion
                 Console.Write("Ingrese el estado del Producto (Activo, Inactivo, Pendiente): ");
                 string estado = Console.ReadLine();
 
-                ProductoDTO productoDTO = new ProductoDTO(id, nombre, descripcion, precio, categoriaId, cantidadStock, new EstadoProducto(estado));
+                // Crear el DTO del producto con los datos ingresados
+                EstadoProducto estadoProducto = new EstadoProducto(estado);
+                ProductoDTO productoDTO = new ProductoDTO(id, nombre, descripcion, precio, categoriaId, cantidadStock, estadoProducto);
+
+                // Ejecutar la actualización del producto
                 actualizarProducto.Ejecutar(productoDTO);
 
                 MostrarMensajeExito("Producto actualizado con éxito.");
+            }
+            catch (FormatException)
+            {
+                MostrarMensajeError("Formato de entrada no válido. Por favor, intente nuevamente.");
+            }
+            catch (InvalidOperationException ex)
+            {
+                MostrarMensajeError(ex.Message);
             }
             catch (Exception ex)
             {

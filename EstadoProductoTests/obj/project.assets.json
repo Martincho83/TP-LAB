@@ -5529,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\EstadoProductoTests.csproj",
+      "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\EstadoProductoTests\\EstadoProductoTests.csproj",
       "projectName": "EstadoProductoTests",
-      "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\EstadoProductoTests.csproj",
+      "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\EstadoProductoTests\\EstadoProductoTests.csproj",
       "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\obj\\",
+      "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\EstadoProductoTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5550,8 +5550,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj": {
-              "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj"
+            "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj": {
+              "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj"
             }
           }
         }

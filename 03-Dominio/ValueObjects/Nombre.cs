@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace _03_Dominio.ValueObjects
 {
     public class Nombre
@@ -12,14 +7,33 @@ namespace _03_Dominio.ValueObjects
 
         public Nombre(string valor)
         {
-            this.debeContenerNombre(valor);
+            this.DebeContenerMasDe4Caracteres(valor);
+            this.DebeContenerMenosDe20Caracteres(valor);
+            this.NoPuedeEstarVacio(valor);
             this.valor = valor;
         }
-        private void debeContenerNombre(string valor)
+        private void DebeContenerMasDe4Caracteres(string valor)
         {
-            if(valor == "")
+            if(valor.Length < 4)
             {
-                throw new Exception("El nombre no debe ser vacio");
+                throw new ArgumentException("El nombre debe contener, al menos, 4 caracteres.");
+            }
+        }
+
+        private void DebeContenerMenosDe20Caracteres(string valor)
+        {
+            if(valor.Length > 20)
+            {
+                throw new ArgumentException("El nombre debe contener un máximo de 20 caracteres.");
+            }
+        }
+
+        private void NoPuedeEstarVacio(string value)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                throw new ArgumentException("El nombre no puede estar vacio.");
+
             }
         }
 

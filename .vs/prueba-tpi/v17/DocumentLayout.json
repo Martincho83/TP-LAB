@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\",
+  "WorkspaceRootPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{309791AC-39DA-487C-819E-D56AF72DBF98}|EstadoProductoTests\\EstadoProductoTests.csproj|c:\\users\\martin\\desktop\\prueba-tpi\\estadoproductotests\\estadoproductotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{309791AC-39DA-487C-819E-D56AF72DBF98}|EstadoProductoTests\\EstadoProductoTests.csproj|solutionrelative:estadoproductotests\\estadoproductotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82A5336-6FDA-4327-9C60-8B75B566CCE3}|01-Presentacion\\01-Presentacion.csproj|c:\\users\\martin\\desktop\\prueba-tpi\\01-presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82A5336-6FDA-4327-9C60-8B75B566CCE3}|01-Presentacion\\01-Presentacion.csproj|solutionrelative:01-presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF60CF4-3578-4159-AF0E-0ED113C82896}|02-Aplicacion\\02-Aplicacion.csproj|C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-aplicacion\\crud\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF60CF4-3578-4159-AF0E-0ED113C82896}|02-Aplicacion\\02-Aplicacion.csproj|solutionrelative:02-aplicacion\\crud\\crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EstadoProductoTests.cs",
-              "DocumentMoniker": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\EstadoProductoTests.cs",
-              "RelativeDocumentMoniker": "EstadoProductoTests\\EstadoProductoTests.cs",
-              "ToolTip": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\EstadoProductoTests.cs",
-              "RelativeToolTip": "EstadoProductoTests\\EstadoProductoTests.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBMAAAAOAAAA",
+              "Title": "CrearProducto.cs",
+              "DocumentMoniker": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\CRUD\\CrearProducto.cs",
+              "RelativeDocumentMoniker": "02-Aplicacion\\CRUD\\CrearProducto.cs",
+              "ToolTip": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\02-Aplicacion\\CRUD\\CrearProducto.cs",
+              "RelativeToolTip": "02-Aplicacion\\CRUD\\CrearProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T18:04:58.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\martin\\Desktop\\prueba-tpi\\01-Presentacion\\Program.cs",
-              "RelativeDocumentMoniker": "01-Presentacion\\Program.cs",
-              "ToolTip": "C:\\Users\\martin\\Desktop\\prueba-tpi\\01-Presentacion\\Program.cs",
-              "RelativeToolTip": "01-Presentacion\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T03:28:31.441Z",
+              "WhenOpened": "2024-06-27T17:13:20.98Z",
               "EditorCaption": ""
             }
           ]

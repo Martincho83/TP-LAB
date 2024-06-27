@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YnbSsCO+10lpHn6Auh5hTac0B4eKHlOQkoBYGiPbBkTSOVstijixnutzJjQXH4M/1ybqY5gH471zauKMBkTVrQ==",
+  "dgSpecHash": "TSnU96N9VdnfeF7Pjm1pvBLtXA10soYVPrbRDDL045byN1b7SAqhoHp3n6dMgGnR2d1iPWP6GUXlNmTBTun0/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\ProductoTests\\ProductoTests.csproj",
+  "projectFilePath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\ProductoTests\\ProductoTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martin\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\martin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

@@ -8,7 +8,7 @@ namespace _03_Dominio.ValueObjects
 {
     public class CantidadStock
     {
-        private int valor;
+        private readonly int valor;
 
         public CantidadStock(int valor)
         {

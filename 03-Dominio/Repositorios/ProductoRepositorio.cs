@@ -9,8 +9,6 @@ namespace _03_Dominio.Repositorios
         Producto ObtenerPorId(int id);
         public void Actualizar(Producto producto);
         public void Eliminar(Producto producto);
-
-        //Nuevo metodo agregado
         public bool ExisteProductoConId(int id);
     }
 }

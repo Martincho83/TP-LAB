@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dYorGQMfARyTlKBmAVzlQOqS9n4A0+hHLg4QBBAB/1RsWm3qKuieRAumFXjLzcUZdnNvzJF+u/squv2jmjB9Xw==",
+  "dgSpecHash": "eyq7rJPG2Lw2VDIJ1jUUuR/V0CoJqDiudGB8DNRM55RW1/NbMYhNA3z0BuC/qFDQE/bq4eCynlj7akCbSyyMbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\EstadoProductoTests\\EstadoProductoTests.csproj",
+  "projectFilePath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\EstadoProductoTests\\EstadoProductoTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\martin\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

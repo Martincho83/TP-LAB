@@ -8,19 +8,19 @@ namespace _03_Dominio.ValueObjects
 {
     public class Identificador
     {
-        private int valor;
+        private readonly int valor;
 
         public Identificador (int valor)
         {
-            this.debeContenerIdentificador(valor);
+            this.ValidarIdentificador(valor);
             this.valor = valor;
         }
 
-        private void debeContenerIdentificador(int valor)
+        private void ValidarIdentificador(int valor)
         {
-            if (valor < 0)
+            if (valor <= 0)
             {
-                throw new Exception("El valor no puede ser negativo");
+                throw new ArgumentException("El identificador debe ser mayor que cero.");
             }
         }
 

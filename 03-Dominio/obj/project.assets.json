@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj",
       "projectName": "03-Dominio",
-      "projectPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\03-Dominio.csproj",
+      "projectPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\03-Dominio.csproj",
       "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martin\\Desktop\\prueba-tpi\\03-Dominio\\obj\\",
+      "outputPath": "C:\\Users\\martin\\Desktop\\tp-lds\\TP-LAB\\03-Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,20 +11,24 @@ namespace _02_Aplicacion.CRUD
 {
     public class EliminarProducto
     {
-        private ProductoRepositorio repositorio;
+        private readonly ProductoRepositorio repositorio;
 
         public EliminarProducto(ProductoRepositorio repositorio)
         {
-            this.repositorio = repositorio;
+            this.repositorio = repositorio ?? throw new ArgumentNullException(nameof(repositorio),"El repositorio no puede ser nulo.");
         }
 
         public void Ejecutar(int productoId)
         {
+            // Obtener el producto existente por su ID
             Producto productoExistente = this.repositorio.ObtenerPorId(productoId);
-            if(productoExistente != null )
+            if(productoExistente == null )
             {
-                this.repositorio.Eliminar(productoExistente);
+                throw new InvalidOperationException($"No se encontró ningún producto con el ID {productoId}.");
             }
+
+            // Eliminar el producto del repositorio
+            repositorio.Eliminar(productoExistente);
         }
     }
 }
