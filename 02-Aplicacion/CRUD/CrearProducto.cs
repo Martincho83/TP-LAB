@@ -21,11 +21,11 @@ namespace _02_Aplicacion.CRUD
                 throw new ArgumentNullException(nameof(productoDTO), "El DTO del producto no puede ser nulo.");
             }
 
-            /* // Verificar si el producto ya existe
+             // Verificar si el producto ya existe
              if (repositorio.ExisteProductoConId(productoDTO.GetId()))
              {
                  throw new InvalidOperationException("El ID del producto ya está registrado. Por favor, ingrese otro ID.");
-             }*/
+             }
             // Validaciones
 
             ValidarProductoDTO(productoDTO);
