@@ -11,8 +11,8 @@ namespace ProductoTests
             //Arrange: Creamos un producto con datos iniciales para la prueba.
             var producto = new Producto(
                 id: 1,
-                nombre: "Producto de Prueba",
-                descripcion: "Descripcion de prueba",
+                nombre: "ProdPrueba",
+                descripcion: "DescPrueba",
                 precio: 129,
                 categoriaId: 1,
                 cantidadStock: 100,
@@ -20,8 +20,8 @@ namespace ProductoTests
                 );
 
             //Act: Modificamos los atributos del producto usando los métodos setter.
-            producto.SetNombre("Producto Modificado");
-            producto.SetDescripcion("Descripcion Modificada");
+            producto.SetNombre("ProdModificado");
+            producto.SetDescripcion("DescModificada");
             producto.SetPrecio(199);
             producto.SetCategoriaId(2);
             producto.SetCantidadStock(50);
@@ -29,8 +29,8 @@ namespace ProductoTests
 
             //Assert: Verificamos que los valores recuperados mediante los metodos getter son correctos
             Assert.Equal(1, producto.GetId());
-            Assert.Equal("Producto Modificado", producto.GetNombre());
-            Assert.Equal("Descripcion Modificada", producto.GetDescripcion());
+            Assert.Equal("ProdModificado", producto.GetNombre());
+            Assert.Equal("DescModificada", producto.GetDescripcion());
             Assert.Equal(199, producto.GetPrecio());
             Assert.Equal(2, producto.GetCategoriaId());
             Assert.Equal(50, producto.GetCantidadStock());
